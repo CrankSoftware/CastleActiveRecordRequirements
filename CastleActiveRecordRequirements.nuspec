@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Castle.ActiveRecord.Requirements</id>
+    <version>3.3.1</version>
+    <title>$title$</title>
+    <authors>Marc Stevenson</authors>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <projectUrl>http://www.castleproject.org/activerecord/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The enterprise data mapping pattern implemented using NHibernate.</description>
+    <releaseNotes>This is simply to enable a nuget dependency on CastleActiveRecord 3.3</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Castle, orm, activerecord, NHibernate</tags>
+	<dependencies>
+        <dependency id="NHibernate" version="3.1.0.4000" />
+        <dependency id="Castle.Core" version="3.3.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\lib\Castle.ActiveRecord.dll" target="lib" />
+    <file src="bin\Release\lib\Castle.ActiveRecord.Linq.dll" target="lib" />
+    <file src="bin\Release\lib\Castle.Components.Validator.dll" target="lib" />
+    <file src="bin\Release\lib\NHibernate.ByteCode.Castle.dll" target="lib" />
+  </files>
+</package>
